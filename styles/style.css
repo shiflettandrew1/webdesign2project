@@ -1,0 +1,46 @@
+.navigation {
+    margin-left: 50;
+    position: fixed;
+  bottom: 100;
+  right: 100;
+  width: 300px;
+  
+}
+
+.block{
+    background-color: rgb(31, 17, 1);
+    font-size: 24px;
+    padding: 15px 25px;
+    color: antiquewhite;
+}
+
+.header4 {
+    color: orange;
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+
+  .image1{
+    margin-top: 30px;
+    margin-right: 50px;
+  }
+
+  
