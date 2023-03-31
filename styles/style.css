@@ -30,14 +30,6 @@
     clear: both;
   }
 
-  .row {
-    display: flex;
-  }
-  
-  .column {
-    flex: 50%;
-  }
-
   .image1{
     margin-top: 30px;
     margin-right: 50px;
