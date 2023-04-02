@@ -1,4 +1,4 @@
-.navigation {
+.navigation{
     margin-left: 50;
     position: fixed;
   bottom: 100;
@@ -14,25 +14,41 @@
     color: antiquewhite;
 }
 
-.header4 {
+.header4{
     color: orange;
 }
 
-.column {
+.column{
     float: left;
     width: 50%;
   }
   
   /* Clear floats after the columns */
-  .row:after {
+  .row:after{
     content: "";
     display: table;
     clear: both;
   }
 
   .image1{
+    position: relative;
+    left: 100px;
     margin-top: 30px;
     margin-right: 50px;
+    width: 600px;
+    height: auto;
   }
 
+  .about {
+    color: rgb(226, 174, 3);
+  }
   
+  .star{
+    position: relative;
+    bottom: 50px;
+    right: 100px;
+  }
+
+  .p{
+    font-size: 48px;
+  }
