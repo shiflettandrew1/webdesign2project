@@ -1,4 +1,5 @@
 .navigation{
+  color: aliceblue;
     margin-left: 50;
     position: fixed;
   bottom: 100;
@@ -50,5 +51,18 @@
   }
 
   .p{
-    font-size: 48px;
+  font-size: 48px;
+  background-color: #150300;
+ display: inline-block;
+ margin: 15px;
+ text-transform: uppercase;
+ padding: 10px;
+ text-align: center;
   }
+
+  .about{
+    position: relative;
+    top: 100px;
+  }
+
+  
