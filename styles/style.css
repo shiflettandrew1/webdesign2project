@@ -24,7 +24,7 @@
     width: 50%;
   }
   
-  /* Clear floats after the columns */
+  
   .row:after{
     content: "";
     display: table;
@@ -65,4 +65,16 @@
     top: 100px;
   }
 
-  
+  .box {
+    width: 200px; 
+    height: 200px;
+    border: 1px solid black; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box p {
+    text-align: center; /* center-align the text */
+    margin: 0; /* remove any default margins */
+  }

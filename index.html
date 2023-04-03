@@ -12,16 +12,18 @@
             font-size: 36px;
             position: relative;
             top: 50px;
-            left: 150px;
+            left: 450px;
         }
 
         b {
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             font-size: 72px;
-            left: 150px;
+            position: relative;
+            left: 300px;
         }
 
         nav a{
+            text-decoration: none;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: 13px;
             color: aliceblue;
@@ -30,8 +32,13 @@
             top: 19px;
         }
 
+        nav a.current{
+            text-decoration: underline;
+        }
+
         u {
             position: relative;
+            left: 475px;
             font-size: larger;
             color: orange;
             bottom: 125px;
@@ -40,41 +47,67 @@
         p {
             font-size: 25px;
         }
+
+        .image1{
+            position: relative;
+            bottom: 130px
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <nav class="navigation">
-            <a href="#">Welcome</a>
-            <a href="#">Menu</a>
-            <a href="#">Reservations</a>
-            <a href="#">News</a>
-            <a href="#">Contact</a>
+            <a href="#" class="current">Welcome</a>
+            <a href="#">Menu  </a>
+            <a href="#">Reservations  </a>
+            <a href="#">News  </a>
+            <a href="#">Contact  </a>
         </nav>
     </div>
         
+    <style>
+        
+    </style>
 
     <div class="block">THE PLACE</div>
  
    <style>
         img {
         position: relative;
-        top: 30px;
-        right: 220px;
+        top: 50px;
+        left: 60px;
+        size-adjust: 100px;
         }
    </style>
+
+   <h4 class="header4">Discover</h4>
+   <b>OUR STORY</b>
+   <img src="assets/Star.png" class="Star">
 
     <div class="row">
         <div class="column">
             
-            <h4 class="header4">Discover</h4>
-            <b>OUR STORY</b>
-            <img src="assets/Star.png" class="Star">
-            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Iusto accusamus exercitationem ullam adipisci nobis. 
-              Tempore labore tempora fugiat, quidem cupiditate
-               voluptatem dicta enim amet eaque, nihil aperiam 
-               distinctio ipsa sapiente!</p>
+            <style>
+                .box {
+                border: none;
+                position: relative;
+                left: 260px;
+                top: 50px;
+                width: 500px; 
+                height: 200px;
+                display: flex; 
+                justify-content: center;
+                align-items: center;
+                }
+            </style>
+            <div class="box">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Iusto accusamus exercitationem ullam adipisci nobis. 
+                    Tempore labore tempora fugiat, quidem cupiditate
+                     voluptatem dicta enim amet eaque, nihil aperiam 
+                     distinctio ipsa sapiente!</p>
+              </div>
+            
         </div>
         <div class="column2">
             <picture class="image1">
